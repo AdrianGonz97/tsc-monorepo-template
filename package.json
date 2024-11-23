@@ -1,0 +1,22 @@
+{
+	"name": "root",
+	"version": "0.0.0",
+	"type": "module",
+	"license": "MIT",
+	"scripts": {
+		"dev": "tsc --build --force --watch --verbose",
+		"clean": "tsc --build --clean",
+		"build": "tsc --build --noCheck --force --verbose",
+		"check": "pnpm --parallel exec tsc --noEmit",
+		"format": "prettier --write .",
+		"lint": "prettier --check .",
+		"test": "vitest run"
+	},
+	"devDependencies": {
+		"@types/node": "^20.0.0",
+		"prettier": "^3.3.3",
+		"typescript": "^5.7.2",
+		"vitest": "^2.1.5"
+	},
+	"packageManager": "pnpm@9.14.2"
+}

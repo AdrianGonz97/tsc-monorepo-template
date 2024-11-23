@@ -1,0 +1,15 @@
+{
+	"name": "library-1",
+	"version": "0.0.0",
+	"exports": {
+		".": {
+			"types": "./dist/index.d.ts",
+			"default": "./dist/index.js"
+		}
+	},
+	"type": "module",
+	"license": "MIT",
+	"files": [
+		"dist"
+	]
+}
