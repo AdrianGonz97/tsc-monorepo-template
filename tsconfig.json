@@ -1,6 +1,6 @@
 {
 	"include": [],
-	// References all of the projects so that we can run `tsc --build`
+	// References all of the libraries so that we can run `tsc --build`
 	// from the root and have them rebuild their respective packages on updates.
 	"references": [{ "path": "./packages/library-1" }, { "path": "./packages/library-2" }]
 }
